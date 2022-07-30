@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f1f300-ac31-4ff4-b302-a5c15bae1e11" name="Changes" comment="(Master) - add greeting server">
-      <change afterPath="$PROJECT_DIR$/src/main/java/greeting/client/GreetingClient.java" afterDir="false" />
+    <list default="true" id="15f1f300-ac31-4ff4-b302-a5c15bae1e11" name="Changes" comment="(Master) - add greeting client">
+      <change afterPath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/greeting/greeting.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +71,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\Repository\grpc-java-learn\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GreetingClient">
+  <component name="RunManager" selected="Gradle.grpc-java-learn [generateProto]">
     <configuration name="GreetingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greeting.client.GreetingClient" />
       <module name="grpc-java-learn.main" />
@@ -131,8 +135,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GreetingClient" />
         <item itemvalue="Gradle.grpc-java-learn [generateProto]" />
+        <item itemvalue="Application.GreetingClient" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658761464320</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="(Master) - add greeting client">
+      <created>1658761639942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658761639942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +202,8 @@
     <MESSAGE value="(Master) - commit initial files" />
     <MESSAGE value="(Master) - change build gradle to include grpc protobuf" />
     <MESSAGE value="(Master) - add greeting server" />
-    <option name="LAST_COMMIT_MESSAGE" value="(Master) - add greeting server" />
+    <MESSAGE value="(Master) - add greeting client" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Master) - add greeting client" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
