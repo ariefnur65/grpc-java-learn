@@ -14,5 +14,6 @@ public class GreetingServiceImpl extends GreetingServiceGrpc.GreetingServiceImpl
                 .setResult(greetingBandung)
                 .build();
         responseStreamObserver.onNext(greetingResponse);
+        responseStreamObserver.onCompleted();
     }
 }
