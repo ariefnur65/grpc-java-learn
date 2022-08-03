@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f1f300-ac31-4ff4-b302-a5c15bae1e11" name="Changes" comment="(Master) - add greeting client implementation onComplete">
+    <list default="true" id="15f1f300-ac31-4ff4-b302-a5c15bae1e11" name="Changes" comment="(Master) - add greeting many times according to input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/client/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/client/GreetingClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/proto/greeting/greeting.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/greeting/greeting.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <recent name="H:\Repository\grpc-java-learn\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.grpc-java-learn [generateProto]">
+  <component name="RunManager" selected="Application.GreetingClient_doGreetManyTimes">
     <configuration name="GreetingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greeting.client.GreetingClient" />
       <module name="grpc-java-learn.main" />
@@ -107,6 +107,16 @@
       <option name="MAIN_CLASS_NAME" value="greeting.client.GreetingClient" />
       <module name="grpc-java-learn.main" />
       <option name="PROGRAM_PARAMETERS" value="greet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetingClient_doGreetManyTimes" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="greeting.client.GreetingClient" />
+      <module name="grpc-java-learn.main" />
+      <option name="PROGRAM_PARAMETERS" value="greet_many_times" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +152,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.GreetingClient_doGreetManyTimes" />
       <item itemvalue="Application.GreetingClient_doGreet" />
       <item itemvalue="Application.GreetingServer" />
       <item itemvalue="Application.GreetingClient" />
@@ -219,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659224446317</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="(Master) - add greeting client implementation for greet many times in server">
+      <created>1659532973443</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659532973443</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,15 +259,22 @@
     <MESSAGE value="(Master) - add greeting server implementation" />
     <MESSAGE value="(Master) - add greeting service implementation onComplete" />
     <MESSAGE value="(Master) - add greeting client implementation onComplete" />
-    <option name="LAST_COMMIT_MESSAGE" value="(Master) - add greeting client implementation onComplete" />
+    <MESSAGE value="(Master) - add greeting client implementation for greet many times in server" />
+    <MESSAGE value="(Master) - add greeting many times according to input" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Master) - add greeting many times according to input" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/greeting/client/GreetingClient.java</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/greeting/client/GreetingClient.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

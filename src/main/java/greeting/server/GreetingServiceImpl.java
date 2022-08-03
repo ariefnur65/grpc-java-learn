@@ -19,7 +19,7 @@ public class GreetingServiceImpl extends GreetingServiceGrpc.GreetingServiceImpl
 
     @Override
     public void greetManyTimes(GreetingRequest request, StreamObserver<GreetingResponse> responseObserver) {
-        String greetingMessage = "Halo halo bandung " + request.getFirstName();
+        String greetingMessage = "I love you, " + request.getFirstName();
         GreetingResponse response = GreetingResponse
                 .newBuilder()
                 .setResult(greetingMessage)
