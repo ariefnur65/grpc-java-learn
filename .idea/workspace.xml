@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f1f300-ac31-4ff4-b302-a5c15bae1e11" name="Changes" comment="(Master) - add greeting client">
-      <change afterPath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/greeting/greeting.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="15f1f300-ac31-4ff4-b302-a5c15bae1e11" name="Changes" comment="(Master) - add greeting client implementation onComplete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/server/GreetingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/greeting/greeting.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/greeting/greeting.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;H:/Repository/grjpc-java-assignment-calculator&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -80,7 +79,11 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Repository\grpc-java-learn\src\main\proto\greeting" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Repository\grpc-java-learn\src\main\proto\calculator" />
       <recent name="H:\Repository\grpc-java-learn\src\main" />
     </key>
   </component>
@@ -94,6 +97,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetingClient_doGreet" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="greeting.client.GreetingClient" />
+      <module name="grpc-java-learn.main" />
+      <option name="PROGRAM_PARAMETERS" value="greet" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +142,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.GreetingClient_doGreet" />
       <item itemvalue="Application.GreetingServer" />
       <item itemvalue="Application.GreetingClient" />
       <item itemvalue="Gradle.grpc-java-learn [generateProto]" />
@@ -184,7 +198,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658761639942</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="(Master) - add greeting server implementation">
+      <created>1659221138680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659221138680</updated>
+    </task>
+    <task id="LOCAL-00007" summary="(Master) - add greeting service implementation onComplete">
+      <created>1659224413638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659224413638</updated>
+    </task>
+    <task id="LOCAL-00008" summary="(Master) - add greeting client implementation onComplete">
+      <created>1659224446316</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659224446317</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +238,21 @@
     <MESSAGE value="(Master) - change build gradle to include grpc protobuf" />
     <MESSAGE value="(Master) - add greeting server" />
     <MESSAGE value="(Master) - add greeting client" />
-    <option name="LAST_COMMIT_MESSAGE" value="(Master) - add greeting client" />
+    <MESSAGE value="(Master) - add greeting server implementation" />
+    <MESSAGE value="(Master) - add greeting service implementation onComplete" />
+    <MESSAGE value="(Master) - add greeting client implementation onComplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Master) - add greeting client implementation onComplete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/greeting/client/GreetingClient.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
