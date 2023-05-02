@@ -6,7 +6,9 @@ option java_package = "com.proto.dummy";
 option java_multiple_files = true;
 
 message DummyMessage {
+    string name = 1;
 }
 
 service DummyService {
+    rpc DummyMethod (DummyMessage) returns (DummyMessage) {}
 }
